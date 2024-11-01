@@ -1,4 +1,4 @@
-Hospital Lenegth of Stay Prediction for Planned Admission Using Observational Medical Outcomes Partnership Common Data Model: Retrospective Study
+Hospital Length of Stay Prediction for Planned Admission Using Observational Medical Outcomes Partnership Common Data Model: Retrospective Study
 ==========================================
 * Analytics use case(s): Patient-Level Prediction
 * Study type: Clinical Application
