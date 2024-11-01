@@ -34,7 +34,7 @@ The use of the OMOP CDM in predicting hospital LoS for planned admissions demons
 
 | Element | Description |
 | ------- | ----------- |
-| [Study title]      | Hospital Lenegth of Stay Prediction for Planned Admission Using Observational Medical Outcomes Partnership Common Data Model: Retrospective Study   |    
+| Study Title  | Hospital Lenegth of Stay Prediction for Planned Admission Using Observational Medical Outcomes Partnership Common Data Model: Retrospective Study   |    
 | Study status badge | A badge indicating the study status. See [below](#study-status) for valid options. |
 | Research Question | How can machine learning models be developed and validated to predict length of stay (LoS) for planned hospital admissions using data standardized in the OMOP Common Data Model?|
 | Analytics use case | [Patient-Level Prediction](#analytics-use-cases) |
