@@ -13,19 +13,19 @@ Hospital Lenegth of Stay Prediction for Planned Admission Using Observational Me
 
   ![image](https://github.com/user-attachments/assets/c1e8178e-60ff-4ce5-bb32-d483876e0760)
 
-Background:
+* Background:
 Accurate hospital length of stay (LoS) prediction allows for efficient resource management. Conventional LoS prediction models with limited covariates and non-standardized data experience limited reproducibility when applied to the general population. 
 
-Objective:
+* Objective:
 In this study, we developed and validated machine learning (ML)-based LoS prediction models for planned admissions using the Observational Medical Outcomes Partnership Common Data Model (OMOP CDM).
 
-Methods: 
+* Methods: 
 Retrospective patient-level prediction models leveraged electronic health record (EHR) data converted to the OMOP CDM (version 5.3) from Seoul National University Bundang Hospital (SNUBH) in South Korea. The study included 137,437 hospital admission episodes between January 2016 and December 2020. Covariates from the person, condition occurrence, medication, observation, measurement, procedure, and visit occurrence tables were included in the analysis. To perform feature selection, we applied Lasso regularization was applied in logistic regression. The primary outcome was a LoS of seven days or longer, and the secondary outcome was a LoS of 3 days or longer. The prediction models were developed using six ML algorithms, with the training and test set split in a 7:3 ratio. The performance of each model was evaluated based on the area under the receiver operating characteristic curve (AUROC) and the area under Precision-Recall curve (AUPRC). SHapley Additive exPlanations (SHAP) analysis measured feature importance, while calibration plots assessed the reliability of the prediction models. External validation of the developed models occurred at an independent institution, Seoul National University Hospital (SNUH).
 
-Results:
+* Results:
 The final sample included 129,938 patient entry events in the planned admissions. The XGB model achieved the best performance in binary classification for predicting a LoS of 7 days or longer, with an AUROC of 0.891 (95% CI; 0.887-0.894) and an AUPRC of 0.819 (95% CI; 0.813-0.826) on the internal test set. The LGB model performed the best in multi-classification for predicting a LoS of 3 days or more, with an AUROC of 0.901 (95% CI; 0.898-0.904) and an AUPRC of 0.770 (95% CI; 0.762-0.779). The most important features contributing to the models were the operation performed, frequency of previous outpatient visits, patient admission department, age, and day of week admission. The RF model showed robust performance in the external validation set, achieving an AUROC of 0.804 (95% CI; 0.802-0.807). 
 
-Conclusions:
+* Conclusions:
 The use of the OMOP CDM in predicting hospital LoS for planned admissions demonstrates promising predictive capabilities for stays of varying durations. It underscores the advantage of standardized data in achieving reproducible results. This approach should serve as a model for enhancing operational efficiency and patient care coordination across healthcare settings. 
 
 
