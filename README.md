@@ -4,7 +4,6 @@ Hospital Length of Stay Prediction for Planned Admission Using Observational Med
 * Study type: Clinical Application
 * Tags: length of stay, machine learning, healthcare utilization, Observational Medical Outcomes Partnership Common Data Model
 * Study lead: Haeun Lee
-* Study lead forums tag: Haeun Lee
 * Study start date: September 1, 2022
 * Study end date: August 1, 2023
 * Protocol: -
