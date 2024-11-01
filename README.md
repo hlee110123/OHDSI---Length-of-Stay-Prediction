@@ -3,7 +3,7 @@ Hospital Length of Stay Prediction for Planned Admission Using Observational Med
 * Analytics use case(s): Patient-Level Prediction
 * Study type: Clinical Application
 * Tags: length of stay, machine learning, healthcare utilization, Observational Medical Outcomes Partnership Common Data Model
-* Study lead: Haeun Lee, Se Young Jung, Sooyoung Yoo
+* Study lead: Haeun Lee
 * Study lead forums tag: Haeun Lee
 * Study start date: September 1, 2022
 * Study end date: August 1, 2023
@@ -40,7 +40,7 @@ The use of the OMOP CDM in predicting hospital LoS for planned admissions demons
 | Analytics use case | [Patient-Level Prediction](#analytics-use-cases) |
 | Study type | [Clinical Application](#study-types) |
 | Tags | length of stay, machine learning, healthcare utilization, Observational Medical Outcomes Partnership Common Data Model |
-| Study lead | Haeun Lee, Se Young Jung, Sooyoung Yoo |
+| Study lead | Haeun Lee |
 | Study lead forums tag | [Haeun Lee](https://forums.ohdsi.org/u/hlee292) |
 | Study team | Haeun Lee, Seok Kim, Hui-Woun Moon, Ho-Young Lee, Kwangsoo Kim, Se Young Jung, Sooyoung Yoo |
 | Cohort Definitions | The study included adult patients (≥18 years) with documented admission diagnoses who had planned hospitalizations between January 1, 2016, and December 31, 2020, with lengths of stay between 2 and 30 days, excluding those who died during hospitalization or were admitted through the emergency room.|
